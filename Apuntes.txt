@@ -1,0 +1,5 @@
+https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+
+https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
+
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
