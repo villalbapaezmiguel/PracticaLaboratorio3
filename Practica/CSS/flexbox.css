@@ -1,0 +1,30 @@
+.nav-enlace{
+    background-color: blanchedalmond;
+    color: black;
+    padding: 10px 30px;
+    display: inline-block;/*muy importante*/
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background-color: cornflowerblue;
+}
+
+nav{
+    background-color: brown;
+    padding: 10px;
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: space-around;
+}
+
+@media (max-width : 600px)
+{
+    nav{
+        background-color: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+}
