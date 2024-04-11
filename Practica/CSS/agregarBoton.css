@@ -1,0 +1,50 @@
+.nav-enlace{
+    background-color: salmon;
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+}
+.nav-enlace:hover
+{
+    background-color: blueviolet;
+}
+
+nav{
+    background-color: brown;
+    display: flex;/*muy importante para manipular los elementos que estan contenidos*/
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+.nav-button{
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 0px;
+    border: 2px solid #fff;
+    display: none;
+}
+
+@media(max-width:600px)
+{
+    nav{
+        background-color: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+    .nav-button{
+        display: inline-block;
+    }
+
+    .desaparece{
+        display: none;
+    }
+    
+
+
+
+}
+
+
