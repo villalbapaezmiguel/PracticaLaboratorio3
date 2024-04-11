@@ -1,0 +1,57 @@
+body
+{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+    font-weight: 400;
+}
+
+p{
+    font-weight: 300;
+}
+
+.contenedor
+{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex{
+    display: flex;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.columna{
+    background-color: #F7DED0;
+    color: #333;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888;
+}
+.precio{
+    font-size: 50px;
+    color: #6AD4DD;
+}
+
+.btn_precio
+{
+    display: block;
+    background-color: salmon;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid #333;
+}
+
+.btn_precio:hover{
+    background-color: #EE4266;
+}
