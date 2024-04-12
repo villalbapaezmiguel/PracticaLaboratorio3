@@ -1,0 +1,27 @@
+.contenedor
+{
+    background-color: salmon;
+    padding: 100px;
+    margin: 10px; 
+    display: inline-block;
+}
+.flex{
+    display: flex;
+}
+
+.div-A{
+    background-color: blue;
+}
+
+.div-B{
+    background-color: red;
+}
+
+.div-C{
+    background-color: yellow;
+}
+
+.caja{
+    padding: 40px;
+    display: block;
+}

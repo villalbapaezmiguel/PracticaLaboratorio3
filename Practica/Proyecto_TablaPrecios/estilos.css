@@ -1,0 +1,79 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1
+{
+    font-weight: 500;
+}
+p{
+    font-weight: 300;
+}
+.precio{
+    font-size: 50px;
+    color: rgb(218, 225, 231);
+}
+.contendor{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    /*La propiedad flex-wrap es útil para crear diseños flexibles y adaptables que se ajusten 
+    automáticamente a diferentes tamaños de pantalla y dispositivos.*/
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.columna
+{
+    background-color: rgb(26, 83, 133);
+    color: white;
+    border: 2px solid #17202A;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888;
+    box-sizing: border-box;
+    /* puede ser especialmente útil en situaciones donde deseas controlar más fácilmente el tamaño 
+    total de los elementos y mantener un diseño más consistente. */
+    width: 23%;
+}
+
+.btn-comprar{
+    display: block;
+    background-color: #27AE60;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.btn-comprar:hover{
+    background-color: #196F3D;
+}
+
+@media(max-width:600px)
+{
+    .columna{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:450px)
+{
+    .columna{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
