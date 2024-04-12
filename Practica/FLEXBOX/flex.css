@@ -1,27 +1,23 @@
-.contenedor
-{
+.contenedor{
+    width: 80%;
+    height: 500px;
     background-color: salmon;
-    padding: 100px;
-    margin: 10px; 
-    display: inline-block;
-}
-.flex{
+    margin: 50px auto;
     display: flex;
+    /*para trabajar con flexbox es necesario que el contendor padre
+    tenga como atributo y valor     display: flex; , sino no podremos
+    llevar a cabo la manipulacion de elementos*/
+    flex-direction: column;
+}
+.hijo{
+    background-color: #00B285;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
 }
 
-.div-A{
-    background-color: blue;
-}
-
-.div-B{
-    background-color: red;
-}
-
-.div-C{
-    background-color: yellow;
-}
-
-.caja{
-    padding: 40px;
-    display: block;
-}
