@@ -15,5 +15,8 @@ boton.addEventListener('click',(e)=>{
 
     document.getElementById('username').value = "";
     document.getElementById('idpassword').value = "";
+
+
+
 });
 
