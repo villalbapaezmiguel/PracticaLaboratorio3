@@ -1,0 +1,16 @@
+body{
+    background-color: green;
+}
+
+.box{
+    width: 100%px;
+    height: 500px;
+    background-color: #000;
+    margin: 20px;
+    background-image: url(iglesia.jpeg);
+    background-size: contain;/*obliga a la imagen a adaptarse*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

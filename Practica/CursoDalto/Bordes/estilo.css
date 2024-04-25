@@ -1,0 +1,44 @@
+div{
+    background: red;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    
+}
+
+div {
+    border-width: 10px;
+    border-color: black;
+    /*para verlo tenemos que poner algun estilo de borde*/
+    border-style: solid;
+    border-radius: 10px;
+    /*se simplifica mas : */
+    border : 3px solid black;
+
+}
+
+
+.contenedor{
+    background: black;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.hijo{
+    width: 70%;
+    padding: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    
+    color: white;
+    margin-top: 10px;
+    border-radius: 3px;
+
+   
+}
+
+
+
+

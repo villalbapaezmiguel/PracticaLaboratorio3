@@ -1,0 +1,30 @@
+body{
+background-color: red;
+margin: 0;
+
+}
+.box
+{
+    height: 400px;
+    background: linear-gradient(#000,transparent );
+    margin: 0;
+    width: 100%;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-radio
+{
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(green , blue);
+    border-radius: 7px;
+    border: 2px solid black;
+    margin: auto;
+}

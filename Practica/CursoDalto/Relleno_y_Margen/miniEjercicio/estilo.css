@@ -1,0 +1,28 @@
+body{
+    background: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+.carta{
+    background: coral;
+    text-align: center;
+    width: 300px;
+    margin: auto;/*centramos horizontalmente el elemento*/
+}
+
+h1{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0;
+}
+
+h2{
+    font-size: 14px;
+}
+
+p{
+    background: burlywood;
+    font-size: 18px;
+    padding: 15px;
+}

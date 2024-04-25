@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.formulario{
+    background: red;
+    padding: 20px 10px;
+
+}
+
+/*ES IMPORTANTE DARLE UN width Y height PARA PODER VISUALIZAR LA CAJA*/
+/*la separacion de un margen y otro no es la suma de los mismos , sino la del margen mas grande */
+.eje_magin{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}
+
+.box{
+    background: red;
+    width: 100px;
+    height: 100px;
+    /*separamos los elementos*/
+    margin: 50px;
+}

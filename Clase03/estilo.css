@@ -1,79 +1,51 @@
-:root {
-    --primary-color: #3518b3;
-    --secondary-color: #e0d7bc;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(244, 246, 246);
+
+}
+
+.titulo{
+  text-align: left;
+  /*background: gray;*/
+  justify-content: left;
+
+}
+
+.contenedor{
+  display: flex;
+  background-size: cover;
+  text-align: right;
+  border: solid 2px black;  
+}
+
+img{
+  height: 500px;
+  width: 500px;
+}
+
+.hijo{
+  background: blue;
+  text-align: right;
+  justify-content: right;
+  font-size: 20px;
   
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+.enlace{
+  margin: 0;
+  padding: 15px;
+  /*background: yellow;*/
+  text-decoration: none;
   
-    /* color: var(--primary-color); */
-  }
-  
-  body {
-    width: 100%;
-    height: 100vh;
-  
-    background: var(--secondary-color);
-  }
-  
-  header {
-    padding: 20px 20px;
-    background-color: grey;
-    background-image: url(images/header.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  
-    height: 100vh;
-  }
-  
-  @media(max-width:760px) {  
-    header {
-      background-image: none;
-      background: green;
-    }
-  }
-  
-  section {
-  
-  }
-  
-  .barra {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  header nav ul {
-    text-decoration: none;
-    list-style-type: none;
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-  }
-  header nav ul li a {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-    font-size: 20px;
-  }
-  header h1 {
-    color: white;
-    width: 700px;
-    font-size: 50px;
-  }
-  
-  .container-sections {
-    
-  }
-  
-  .container-sections .container-section {
-  
-  }
+  color: azure;
+}
+
+.enlace:hover{
+  background-color: darkgray;
+}
+
+
