@@ -115,5 +115,16 @@ header{
 .titulo-tarjetas{
     position: relative;
     width: 100%;
-    
+    height: 150px;
+    background: red;
+    justify-content: center;   
 }
+
+.titulo-tarjetas h2{
+    width: 100%;
+    background: green;
+    display: inline;
+
+
+}
+
