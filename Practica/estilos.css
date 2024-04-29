@@ -3,34 +3,33 @@
     font-weight: 400;
     font-style: normal;
 }
-  
-*{
+
+* {
     margin: 0;
     padding: 0;
     border: border-box;
 }
 
 
-header{
+header {
     width: 100%;
     height: 550px;
-    background-image: url(header.jpg);    
+    background-image: url(header.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.cabecera
-{
+.cabecera {
     margin: 0 auto;
     width: 95%;
     height: 100%;
     /*background: blue;*/
     cursor: default;
-    
+
 }
 
-.navegacion{
+.navegacion {
     display: inline;
     display: flex;
     flex-direction: row;
@@ -40,7 +39,7 @@ header{
     left: 75%;
 }
 
-.titulo{
+.titulo {
     display: inline;
     /*background-color: azure;*/
     position: relative;
@@ -73,58 +72,85 @@ header{
     font-size: 30px;
     color: white;
 }
+
 /*Segunda parte*/
 
-.contenedor-tarjetas{
+.contenedor-tarjetas {
     width: 100%;
     display: flex;
     flex-direction: row;
     max-width: 1100px;
     justify-content: center;
+
 }
 
-.tarjeta{
+.tarjeta {
     width: 100%;
     margin: 20px;
-    overflow: hidden;/*para que todo elemento que este fuera de la tarjeta se oculte/NO aparezcan afuera*/
+    overflow: hidden;
+    /*para que todo elemento que este fuera de la tarjeta se oculte/NO aparezcan afuera*/
     background: transparent;
     cursor: default;
-    
+
 }
 
-.tarjeta img{
+.tarjeta img {
     width: 100%;
     height: 100px;
 }
 
-.contenedor-tarjetas .contenido{
+.contenedor-tarjetas .contenido {
     padding: 15px;
     text-align: center;
 }
 
-.contenedor-tarjetas .contenido p{
+.contenedor-tarjetas .contenido p {
     line-height: 1.5;
     color: #6a6a6a;
 }
 
-.contenedor-tarjetas .contenido h3{
-    font-weight: 400;/*reducimos la negrita*/
+.contenedor-tarjetas .contenido h3 {
+    font-weight: 400;
+    /*reducimos la negrita*/
     margin-bottom: 15px;
 }
 
-.titulo-tarjetas{
-    position: relative;
-    width: 100%;
-    height: 150px;
+.tituloh2 {
+
     background: red;
-    justify-content: center;   
+    display: inline;
+    /*background-color: azure;*/
+    position: relative;
+    top: 20PX;
+    color: white;
 }
 
-.titulo-tarjetas h2{
+/*
+.contenedorTituloh2 h2{
     width: 100%;
     background: green;
     display: inline;
 
 
+}*/
+
+.flex-container {
+    display: flex;
 }
 
+.flex-container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.flex-container-items h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.flex-container-items p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
