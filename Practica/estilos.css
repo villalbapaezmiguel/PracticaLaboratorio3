@@ -191,10 +191,11 @@ header {
 .container-button{
     height: 40px;
     width: 90%;
-    padding: 5px;    
-    /*background: red;*/
+    padding: 5px;
     margin: 30px auto;
-    margin-top: 50px;
+
+    /*background: red;*/
+    /*margin-top: 50px;*/
 }
 .container-button a {
     text-decoration: none;
@@ -208,8 +209,8 @@ header {
 }
 
 .container-content h2{
-    background: red;    
-    font-weight: 400;
+    /*background: red;*/    
+    font-weight: 100;
     font-size: 27px;
     margin-bottom: 20px;
     margin-top: 25px;
@@ -221,12 +222,149 @@ header {
 
 .price{
 
-    color: rgb(46, 204, 113);
+    color: #808000;
     margin-top: 10px;
-    background: red;
+    background: transparent;
     position: relative;
     text-align: left;
     width: 80%;
-    
+    left: 30px;
+    top: 10px;
 
 }
+
+.container-items p{
+    display: inline;
+    text-align: center;
+    background: transparent;
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+}
+
+.container-items{
+    /*display: flex;
+    flex-direction: row;*/
+    width: 100%;
+    background: transparent;
+    justify-content: center center;
+    position: relative;
+    top: 20px;
+    
+}
+.container-items img{
+    background: transparent;
+    margin: 10px;
+    padding: 0 5px;
+}
+
+.buttom-link{   
+    width: 100px;
+    height: 40px;
+    background: #4dab00;
+    position: relative;
+    left: 40%;
+    bottom: 15px;
+    text-align: center;
+    
+}
+
+.buttom-link a {
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    display: block;
+    position: relative;
+    top:10px;
+    font-size: 20px;
+
+
+}
+
+/*cuarta parte*/
+
+.container-form{
+    width: 100%;
+    height: 500px;
+    background-image: url(imgProyecto/imganes/images/encuentra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-form h2{
+
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+    display: inline;
+    position: relative;
+    top: 30%;
+    left: 30px;
+    background: transparent;
+
+}
+
+.container-form p{
+
+    font-weight: 100;
+    font-size: 25px;
+    color: white;
+    background: transparent;
+    display: inline;
+    position: relative;
+    top: 53%;
+    right: 35.5%;
+}
+
+.container-link {
+    width: 170px;
+    height: 60px;
+    background: #808000;
+    text-align: center;
+    justify-content: center center;
+    position: relative;
+    top: 70%;
+    left: 30px;
+}
+
+.container-link a {
+
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    top: 15px;
+    color: white;
+}
+
+/*cuarta parte*/
+
+.container-comentarios-blog{
+    width: 100%;
+    height: 500px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+}
+.container-comentarios-blog h1{
+    background: #4dab00;
+    display: inline;
+    position: relative;
+    left: 150px;
+}
+.blog{
+    width: 50%;
+    height: 100%;
+    background: #808000;
+
+}
+
+.blog img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
