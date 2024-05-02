@@ -344,23 +344,69 @@ header {
     height: 550px;
     background: #808000;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.contenido{
+    
+    width: 100%;
+    height: 50%;
+    background: red;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
 }
 
 .container-blog{
-    width: 50%;
     height: 100%;
-    background: red;
+    width: 50%;
 }
 
+.contenido div{
+    border: 1px solid black;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenido div h2{
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+
+.container-blog h1{
+    background: #4dab00;
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+.foto-blog{
+    width: 310px;
+    height: 180px;
+    position: relative;
+    top: 30px;
+
+}
 .container-comentarios{
     width: 50%;
     height: 100%;
     background: blue;
-    
 }
 
+.contenido p{
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+    /*display: inline;*/
+    position: relative;
+    top: 15px;
+    text-align: center;
 
+    
+
+}
 
 
 
