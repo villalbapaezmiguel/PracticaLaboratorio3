@@ -351,23 +351,28 @@ header {
     
     width: 100%;
     height: 50%;
-    background: red;
+    background: green;
     border: 1px solid black;
     display: flex;
     flex-direction: row;
 }
 
 .container-blog{
-    height: 100%;
     width: 50%;
+    height: 86.8%;
 }
 
 .contenido div{
-    border: 1px solid black;
+    border: 1px solid rgb(223, 13, 13);
     display: block;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    background: #808000;
+
+    /*continuamos*/
+    width: 80%;
+    height: 80%;
 }
 .contenido div h2{
     border: 1px solid black;
