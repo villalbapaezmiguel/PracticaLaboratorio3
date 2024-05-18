@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" type="module"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <fieldset>
+                <h2>Informacion del anuncio</h2>
+                <form action="">
+                    <input type="hidden" name="id" >
+                    <h2>Titulo</h2>
+                    <input type="text" name="titulo" placeholder="Titulo" required>
+                    <h2>Transaccion : </h2>
+                    <div class="transaccion">
+                        <h3>Venta</h3>
+                        <input type="radio" name="transaccion" value="venta" checked>
+                        <h3>Venta</h3>
+                        <input type="radio" name="transaccion" value="alquiler" checked>    
+                    </div>
+                    <h2>Descripcion</h2>
+                    <input type="text" name="descripcion" placeholder="descripcion">
+                    <h2>Precio</h2>
+                    <input type="text" name="precio" placeholder="precio">
+                    <div class="detalle">
+                        <input type="text" name="puertas" placeholder="Puertas">
+                        <input type="text" name="kms" placeholder="KMs">
+                        <input type="text" name="potencia" placeholder="Potencia">
+                    </div>
+                    <div class="btnFra">
+                        <input type="submit" id="btnGuardar" value="Guardar">
+                        <input type="button" id="btnEliminar" value="Eliminar" class="oculto">
+                        <input type="button" id="btnCancelar" value="Cancelar" class="oculto">
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+
+    <div id="spinar-container"></div>
+    <div id="divTabla"></div>
+
+</body>
+</html>
