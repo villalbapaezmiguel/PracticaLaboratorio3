@@ -1,0 +1,5 @@
+Boostrap :  Es una libreria , creada por X . Su principal caracteristica es de que una pagina o 
+sitio wed sea responsividad.
+
+
+CDN (Content Delivery Network) o (Red de distribucion de contenido) : es una direccion de internet

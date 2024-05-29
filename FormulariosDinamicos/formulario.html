@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form action="" id="idFormulario">
+        <label >Nombre</label>
+        <input type="text" name="nombre"  id="idNombre" placeholder="Nombre">
+        <label >Apellido</label>
+        <input type="text" name="apellido"  id="idApellido" placeholder="Apellido">
+    </form>
+
+    <button id="btnMostrar" >Mostrar datos</button>
+    <div id="idResultado">
+
+    </div>
+    <script>
+
+        const mostrar = document.querySelector("#idResultado");
+        //addEventListener : colocale al boton un elemento de escucha 
+        //recibe : por un lado el avento (en este caso = click) y luego la funcion que va a ejecutar
+        mostrar.addEventListener('click', mostrarDatos);
+        // mostrar.addEventListener('click', ()=>{
+        // la funcion que deseas desarrollar
+        // });
+        function mostrarDatos()
+        {
+            const formulario = document.forms['idFormulario'];
+            //console.log(frm);
+            const datos = [];
+            //Hace un bucle por cada elemento que tenga el formulario
+            for(let elemento of formulario)
+            {
+                //console.dir(elemento);
+                datos.push(elemento.value);
+            }
+            //console.log(datos);
+            //document.getElementById("idResultado").innerHTML = datos;
+            const divResultado = document.querySelector("#idResultado");
+            divResultado.textContent = datos;
+
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Evento Submit</h1>
+    <form id="idFomrulario">
+        <label>Curso</label>
+        <input type="text"  id="idCurso"><br>
+        <label>Duracion</label>
+        <input type="number" id="idDuracion">       
+        <button type="submit">Enviar</button>
+    </form>
+ 
+    <script>
+
+        const formualrio = document.querySelector("#idFomrulario");
+
+        formualrio.addEventListener("submit", (evento)=>{
+            evento.preventDefault();//Preveni el comportamiento por defauld del formulario
+            const curso = document.querySelector("#idCurso").value;
+            const duracion = document.querySelector("#idDuracion").value;
+            console.log(curso , duracion);
+        });
+
+
+
+    </script>
+</body>
+</html>
