@@ -3,3 +3,21 @@ sitio wed sea responsividad.
 
 
 CDN (Content Delivery Network) o (Red de distribucion de contenido) : es una direccion de internet
+
+
+Boostrap maneja todo lo que son clases , es decir para poder aplicar los estilos de Boostrap tenemos que usar sus clases 
+en el elemento que querramos usar (sus clases estan en ingle)
+
+Boostrap tambien divide la pantalla en 12 secciones , entonces nos permite usar 4 espacios para un contenido y 8 para otro
+o sea finalmente la division de cantidades de secciones que vamos a usar nos tiene que dar 12
+
+ESPACIOS DE PANTALLA QUE MANEJA : 
+
+sm : samll
+md : madium
+ig : large
+xl : extra large
+
+
+
+Components /Componentes : podemos ver muchas etiquetas y muchos controles ya predefinidos para usarlo
